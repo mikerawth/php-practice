@@ -29,8 +29,8 @@
 		   */
 
 
-
-		
+		// using php function ECHO to write html
+		echo "<h1>hello world</h1>"
 
 
 		?>
