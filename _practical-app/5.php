@@ -24,6 +24,11 @@
 
  */
 
+ echo pow(5,2);
+ echo "<br>";
+ echo strlen("I love cookies!");
+ echo "<br>";
+ echo print_r(array(120,30,1,-4,5,1234));
 	
 ?>
 

@@ -23,6 +23,14 @@
 
  */
 
+ function sum($a, $b) {
+	 return $a + $b;
+ }
+
+ $num1 = 5;
+ $num2 = 7;
+
+ echo sum($num1, $num2);
 	
 ?>
 
