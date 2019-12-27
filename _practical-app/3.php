@@ -25,7 +25,40 @@
 
  */
 
-	
+$number = 35;
+
+ if ($number > 20){
+	echo "somehthing";
+ } elseif($number < 5){
+	echo "something else";
+ } else {
+	 echo "I love php";
+ }
+
+ echo "<br>";
+
+ for ($counter = 0; $counter < 10; $counter++) {
+	 echo $counter . "<br>";
+ }
+
+
+ switch($number) {
+	 case 10:
+		echo "it's 10";
+	 break;
+	 case 15:
+		echo "it's 15";
+	 break;
+	 case 24:
+		echo "it's 24";
+	 break;
+	 case 35:
+		echo "it's 35";
+	 break;
+	 default:
+		 echo "we couldn't find number";
+	break;
+ }
 ?>
 
 
