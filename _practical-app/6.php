@@ -12,14 +12,21 @@
 
 <article class="main-content col-xs-8">
 
+	<form action="6.php" method="post">
+		
+		<input type="tex" name="name">
+		<input type="submit">
 	
+		
+	</form>
+
 	<?php  
 
 /*  Step1: Make a form that submits one value to POST super global
-
+		
 
  */
-
+	echo $_POST['name'];
 	
 ?>
 
